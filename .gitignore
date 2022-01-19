@@ -1,0 +1,10 @@
+.idea
+.vscode
+.env
+!data/.gitkeep
+config/nginx/logs/*
+!log/.gitkeep
+config/mysql/data
+laravel-phpunit-starter/
+PICPAY.txt
+tmp-phpqa/
