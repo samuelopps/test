@@ -30,7 +30,7 @@ class PurseSeeder extends Seeder
         for ($i = 1; $i < 6; $i++) {
             $this->purseServiceInterface->create([
                 'balance' =>$faker->numberBetween(1500, 10000),
-                'user_id' => User::has('purses', '<', 1)->first()->id,
+                'user_id' => User::has('purse', '<', 1)->first()->id,
             ]);
         }
     }
